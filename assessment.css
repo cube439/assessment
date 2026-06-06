@@ -1,0 +1,40 @@
+body{
+  background-color: #04a6eb;
+  color: #fdffff;
+  width: 500px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+button{
+  padding: 5px 20px;
+  background-color: #337ab7;
+  color: #fdffff;
+  border-style: none;
+}
+
+input{
+  height: 20px;
+}
+
+/*16進数カラーコード
+光の三原色＝RGB
+左から二桁ずつRGBに対応している
+16進数は0~9は10進数と同じ、10~16はA~F
+16進数の最大値はFF　16*15+15=255
+代表例
+（白）#FFFFFF
+（黒）#000000
+（赤）#FF0000
+（緑）#00FF00
+（青）#0000FF
+
+/*margin: auto;にすると真ん中に寄る
+margin　　外側の余白
+padding　タグの内側の余白
+border　境界線
+省略は時計回りで決まる
+例
+padding:5px 20px（上下 左右）
+
+/:height　高さ
